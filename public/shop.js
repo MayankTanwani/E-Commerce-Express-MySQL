@@ -109,7 +109,7 @@ function createTotalCart(total_price) {
         <div class="card-body">
             <div class="container">
                 <div class="row">
-                    <div class="col">Total Price</div>
+                    <div class="col"><b>Total Price</b></div>
                     <div class="col-2">Rs. ${total_price}</div>
                     <div class="col-1"></div>
                 </div>
