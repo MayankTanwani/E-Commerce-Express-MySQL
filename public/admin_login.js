@@ -10,7 +10,8 @@ $(function () {
             window.location.replace("/add_products.html")
         }else
         {
+            alert("Invalid Admin Credentials")
             console.log(adminName.val(),password.val())
-        }x
+        }
     })
 })

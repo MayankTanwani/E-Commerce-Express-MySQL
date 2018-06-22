@@ -9,18 +9,6 @@ const db = new Sequelize('shopdb', 'shopper', 'shoppass', {
     }
 })
 
-const User = db.define('user', {
-    id: {
-        type: Sequelize.INTEGER,
-        autoIncrement: true,
-        primaryKey: true
-    },
-    name: {
-        type: Sequelize.STRING,
-        allowNull: false,
-    }
-})
-
 const Product = db.define('products', {
     id: {
         type: Sequelize.INTEGER,
@@ -69,5 +57,5 @@ db.sync()
     .catch((err) => console.error("Error creating database"))
 
 exports = module.exports = {
-    User, Product,Cart
+    Product,Cart
 }

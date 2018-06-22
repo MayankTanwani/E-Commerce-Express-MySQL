@@ -43,6 +43,7 @@
     from {bottom: 30px; opacity: 1;}
     to {bottom: 0; opacity: 0;}
 }
+html{overflow-x: hidden}
 body{
     background: #34495e;
 }

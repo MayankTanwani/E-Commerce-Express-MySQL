@@ -12,9 +12,6 @@ $(function () {
             function (addedProduct) {
                 window.alert("Added " + addedProduct.name + " to Database")
             }
-        )
-
-
+    )
     })
-
 })
